@@ -2,6 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 .card {
     padding: 1rem;
     background: white;
